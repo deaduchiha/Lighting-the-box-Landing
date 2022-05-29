@@ -1,0 +1,184 @@
+#footer{
+    border-bottom: 2px solid #333;
+    background: #E6E6E6;
+    height: 507px
+}
+#footer > #topfoot{
+    margin: 0 auto 0;
+    width: 992px;
+    border: 1px solid transparent;
+    height: 469px;
+}
+#footer > #topfoot > #firstfoot{
+    background: url("../img/content/light in the box.png") no-repeat 12% 85%;
+    background-size: 129px;
+    margin: 10px auto 0;
+    position: static;
+    padding-right: 90px;
+    text-align:  right ;
+    font-size: 15px;
+    font-family: Segoe UI;
+    //border: 1px solid red;
+    height: 26px;
+    width: 710px;
+    
+}
+#footer > #topfoot > #secfoot{
+    direction: rtl;
+    font-family: mj;
+    margin: 10px auto;
+    //border: 1px solid red;
+    height: 100px;
+    width: 820px;
+}
+#footer > #topfoot > #secfoot > div{
+    cursor:default;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    width: 157px;
+    height: 100%;
+}
+#footer > #topfoot > #secfoot > div > p{
+    color: #222;
+    height: 20px;
+    //border: 1px solid red;
+    margin: 30px auto 0;
+    text-align: center;
+}
+#footer > #topfoot > #secfoot > div > span{
+    display: block;
+    margin: 0px;
+    text-align: center;
+    color: #333;;
+}
+
+#footer > #topfoot > #secfoot > div:nth-child(1){background: url(../img/foot/1.PNG) no-repeat 50% 5%; background-size: 30px;}
+#footer > #topfoot > #secfoot > div:nth-child(2){background: url(../img/foot/2.PNG) no-repeat 50% 5%; background-size: 34px;}
+#footer > #topfoot > #secfoot > div:nth-child(3){background: url(../img/foot/3.PNG) no-repeat 50% 5%; background-size: 30px;}
+#footer > #topfoot > #secfoot > div:nth-child(4){background: url(../img/foot/4.PNG) no-repeat 50% 5%; background-size: 34px;}
+#footer > #topfoot > #secfoot > div:nth-child(5){background: url(../img/foot/5.PNG) no-repeat 50% 5%; background-size: 30px;}
+
+#footer > #topfoot > #thirdfoot{
+    margin: 0 auto 0;
+    //border: 1px solid red;
+    height: 121px;
+}
+#footer > #topfoot > #thirdfoot > div{
+    position: relative;
+    //border: 1px solid blue;
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+#footer > #topfoot > #thirdfoot > div > #ourmobile{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    //border: 1px solid red;
+    font-family: mj;
+    width: 130px;
+    height: 25px;
+    
+}
+#footer > #topfoot > #thirdfoot > div > #appfoot{
+    cursor: pointer;
+    text-indent: 43px;
+    font-family: mj;
+    color: #fff;
+    line-height: 35px;
+    font-size: 14px;
+    position: absolute;
+    top: 29px;
+    right: 21px;
+    border: 1px solid  #333;
+    background-color: #333;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+    background: #333 url("../img/apple.png") no-repeat 13% 50%;
+    background-size: 20px;
+}
+#footer > #topfoot > #thirdfoot > div > #andfoot{
+    cursor: pointer;
+    background: url("../img/android.png") no-repeat 14.5% 50%;
+    background-size: 20px;
+    font-size: 14px;
+    font-family: mj;
+    line-height: 35px;
+    text-indent: 47px;
+    color: #fff;
+    position: absolute;
+    top: 29px;
+    left: 21px;
+    border: 1px solid  #333;
+    background-color: #333;
+    border-radius: 5px;
+    height: 35px;
+    width: 120px;
+}
+#footer > #topfoot > #thirdfoot > div:nth-child(2) > div{
+    direction: rtl;
+    //border: 1px solid red;
+    text-indent: 10px;
+    width: 160px;
+    float: right;
+    font-family: mj;
+}
+#footer > #topfoot > #thirdfoot > div:nth-child(2) > img{
+    display: block;
+    //border: 1px solid red;
+    margin: 35px auto 0;
+    width: 90%;
+}
+#footer > #topfoot > #thirdfoot > div:nth-child(1) > input{
+    position:absolute;
+    top: 27PX;
+    left: 5px;
+    border: 1px solid #ccc;
+    color: rgb(66, 66, 66);
+    font-family: Segoe UI;
+    width: 160px;
+    height: 31px;
+}
+#footer > #topfoot > #thirdfoot > div:nth-child(1) > p{
+    cursor: pointer;
+    margin: 0;
+    position:absolute;
+    top: 27.4px;
+    right: 22px;
+    //border: 1px solid #cb2027;
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    line-height: 30px   ;
+    background: #cb2027;
+    font-family: mj;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+#footer > #botfoot{
+    background: #333333;
+    height: 36px;
+}
+#footer > #botfoot > #textfoot{
+    margin: 0px auto;
+    height: 95%;
+    width: 992px;
+    border: 1px solid transparent;
+}
+#footer > #botfoot > #textfoot > div{
+    color: #ccc;
+    margin: 10px auto 0;
+    font-family: Segoe UI;
+    //border: 1px solid blue;
+    width: 470px;
+}

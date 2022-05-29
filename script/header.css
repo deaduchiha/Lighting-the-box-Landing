@@ -1,0 +1,110 @@
+body{ margin: 0;}
+            #header{
+                //border: 1px solid black;
+                height: 75px;
+            }
+            #header > #top{
+                background-color: #160958;
+                height: 45px;
+                
+            }
+            #header > #top > #topback{
+                margin: 0 auto;
+                width: 992px;
+                height: 100%;
+            }
+            #header > #top > #topback > img{
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+            }
+            #header > #menu{
+                width: 100%;
+                height: 30px;
+                background-color: #f2f2f2;
+            }
+            #header > #menu > #navbar{
+                direction: rtl;
+                width: 992px;
+                height: 100%;
+                margin: 0 auto;
+            }
+            #header > #menu > #navbar > ul{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            #header > #menu > #navbar > ul > li:hover{
+                color: red;
+                cursor: pointer;
+            }
+            #header > #menu > #navbar > ul > li{
+                position: relative;
+                float: right;
+                line-height: 30px;
+                margin-right: 55px;
+                font-family: mj;
+                font-size: 14px;
+            }
+            #header > #menu > #navbar > ul > li:nth-child(1){
+                margin-right: 5px;
+            }
+            #header > #menu > #navbar > ul > li:hover > #barcode{
+                visibility: visible;
+                
+            }
+            #header > #menu > #navbar > ul > li > #barcode{
+                background-color: white;
+                z-index: 1;
+                cursor: default;
+                visibility: hidden;
+                position: absolute;
+                top: 10;
+                right: -26px;
+                border: 1px solid #ccc;
+                box-shadow: 1px 1px 5px #ccc ;
+                height: 140px;
+                width: 180px;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #rightbarcode{
+                //border: 1px solid green;
+                float: right;
+                height: 100%;
+                width: 25%;
+            
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #rightbarcode > div > img{
+                margin: 6px 5.5px;
+                width: 60%;
+                height: 60%;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #rightbarcode > div{
+                cursor: pointer;
+                background-color: #333;
+                border: 1px solid #333;
+                border-radius: 5px;
+                width: 30px;
+                height: 30px;
+                margin-top: 22px;
+                margin-right: 18px;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #rightbarcode > div:nth-child(2){
+                margin-top: 10px;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #leftbarcode{
+                float: right;
+                //border: 1px solid yellow;
+                height: 100%;
+                width: 65%;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #leftbarcode > #barcodeimg{
+                margin: 10px auto;
+                margin-right: 10px;
+                border: 1px solid #ccc;
+                width: 100%;
+                height: 120px;
+            }
+            #header > #menu > #navbar > ul > li > #barcode > #leftbarcode > #barcodeimg > img{
+                width: 100%;
+                height: 100%;
+            }
