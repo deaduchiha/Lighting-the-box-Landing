@@ -6,4 +6,4 @@ no responsive
 
 
 # this
-vless://e1995976-43f2-2cb1-0aeb-8616c5933946@novinhost.shop:443?encryption=none&path=%2Ftetris.js&security=tls&sni=novinhost.shop&type=ws#@iProxyRobot-ts59rmo6-A
+vless://0597d1b1-5d57-44d7-3c3d-756dc7c8a717@parsmoviez.live:443?alpn=h2&encryption=none&flow=xtls-rprx-direct&security=xtls&sni=parsmoviez.live&type=tcp
